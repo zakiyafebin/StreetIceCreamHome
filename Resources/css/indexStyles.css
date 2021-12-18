@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: auto;
+}
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 0.3rem solid red;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+ .menuUl ul{
+     display: flex;
+     flex-wrap: wrap;
+    list-style: none;
+    padding-top: 2rem;
+    
+}
+.menuUl li{
+    /* padding: 1.5rem; */
+    font-size: 1rem;
+    /* align-items: stretch; */
+
+
+}
+.menuUl li a{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    letter-spacing: 1px;
+    font-weight:bolder; 
+    padding: 2rem;
+    /* text-align: center; */
+    width: 100%;
+   
+}
+.menuUl li a:hover{
+    color: white;
+    background-color: red;
+}
+.search  i{
+   padding: 1.5rem;
+
+}
+.searchfontawsome{
+    color: red;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.5em;
+    width: 100%;
+    height: 20em;
+    background-image:url(../images/banner.webp);
+    background-size: cover;
+    
+    text-align: center;
+    color: white;
+
+}
+
+   
+
+.bannerTxt h1{
+    font-family:  sans-serif;
+    font-weight: 10px;
+     font-size: 2.5rem; 
+     padding-top: 6rem;
+     
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+ .imgDiv{
+    /* border: 1px solid red; */
+     flex-basis: 25%;
+    max-width: 25%; 
+    margin: 0;
+    padding: 0;
+    
+}
+.lastIce{
+    background-color: #fc0400;
+}
+.imgDiv img{
+    height: 100%;
+    width: 100%;
+}
+.imagelast{
+    flex-grow: 2;
+}
+.container div{
+    overflow: hidden;
+}
+.container div img{
+    transition: transform .2s;   /* smoother zoom */ 
+}
+.container img:hover{
+        transform: scale(1.1);
+        transform-origin: 50% 50%;
+        
+}
+.streets{
+    height: 25rem;
+    display: flex; 
+   
+
+}
+.anotherFlex{
+    background-color: green;
+    display: flex;
+    font-family:  sans-serif;
+    color:white;
+}
+
+#streetsimg{
+    opacity: 1;
+    width: 90%;
+  padding: 4rem;
+
+}
+.scoop{
+    
+    font-weight: 10px;
+     font-size: 2.5rem; 
+     margin: auto;
+    
+}
+.scoop a{
+    text-decoration: none;
+    color: white;
+}
+.findMore{
+    font-size: 2rem!important;
+    padding: 1.5em;
+
+}
+/* foooter----------------------------------------- */
+/* row1 */
+
+.footerComtainer{
+    display: flex;
+    
+    display: inline-block;
+    border: 3px solid red;
+    
+}
+.footerMenu, .facebook {
+    background-color: #fc0400;
+}
+.footerMenu ul{
+   display: flex;
+   flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+   
+    
+}
+.footerMenu li a{
+    color: white;
+    text-decoration: none;
+    background-color:#fc0400 ;
+}
+
+/* row2---------------------------------------------------- */
+
+.facebook  {
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center; 
+    border: 3px solid red; 
+}
+
+  
+  .fa-facebook {
+    background: red;
+    color: white;
+  } 
+/* last row footer */
+.footerLastRow{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    background-color:#fc0400 ;
+    color: white;
+     border: 3px solid red; 
+}
+.uniCopy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black; */
+
+}
+.unilevrLogo img{
+    padding-right:  3rem;
+    padding-left: 7rem;
+
+}
+.aus{
+    /* border: 2px solid black; */
+}
+.aus a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 50rem;
+    
+}
+.aus a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,224 @@
+@media only screen and (max-width: 374px) and (min-width: 320px)  {
+    nav {
+    
+       position: relative;
+    }
+    .menuUl ul{
+     display: block;
+    }
+    .logo{
+        max-width:60% ;
+    }
+    .container{
+        display: block;
+    }
+    .imgDiv {
+        max-width: 100%;
+    }
+    .banner{
+        margin: 0;
+        font-size: 2rem;
+    }  
+    .anotherFlex{
+        display: block;
+    }
+    #streetsimg, .scoop{
+        padding: 1rem;
+    }
+    .footerMenu ul{
+        justify-content: space-evenly;
+        padding: 1.5rem;
+    }
+   
+    .copyright, .unilevrLogo{
+        font-size: 1rem;
+        
+        
+    }
+    .unilevrLogo img{
+        
+        padding: 0;
+    }
+
+}
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (max-width: 424px) and (min-width: 375px)  {
+    nav {
+    
+        position: relative;
+     }
+     .menuUl ul{
+      display: block;
+     }
+     .logo{
+         max-width:60% ;
+     }
+     .container{
+         display: block;
+     }
+     .imgDiv {
+         max-width: 100%;
+     }
+     .banner{
+         margin: 0;
+         font-size: 2rem;
+     }  
+     .anotherFlex{
+         display: block;
+     }
+     #streetsimg, .scoop{
+         padding: 1rem;
+     }
+     .footerMenu ul{
+         justify-content: space-evenly;
+         padding: 1.5rem;
+     }
+     
+     .copyright, .unilevrLogo{
+         font-size: 1rem;
+         
+         
+     }
+     .unilevrLogo img{
+         
+         padding: 0;
+     }
+ 
+       
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (max-width: 634px) and (min-width: 425px)  {
+    nav {
+        display: block;
+        position: relative;
+     }
+/*      
+ .menuUl ul{
+    align-items: flex-start;
+    flex: 2;
+    flex-wrap: wrap;
+   list-style: none;
+   padding-top: 2rem;
+   
+} */
+.logo{
+         max-width:60% ;
+     }
+    
+     .imgDiv {
+        flex-basis:50%;
+        max-width: 50%;
+     }
+     .banner{
+    
+         margin: 0;
+         font-size: 2rem;
+         background-image:url(../images/banner.webp);
+    background-size: cover;
+    
+         background-size: cover;
+     }  
+     .anotherFlex{
+         display: block;
+     }
+     #streetsimg, .scoop{
+         padding: 1rem;
+     }
+     .footerMenu ul{
+         justify-content: space-evenly;
+     }
+     .footerMenu ul{
+         padding: 1.5rem;
+     }
+     .copyright, .unilevrLogo{
+         font-size: 1rem;
+         
+         
+     }
+     .unilevrLogo img{
+         
+         padding-left:3rem 0;
+     }
+ 
+
+   
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (max-width: 1023px) and (min-width: 768px)  {
+    nav {
+        position: relative;
+        display: inset-block: ;;
+       
+     }
+     nav div{
+        border: 3px solid red;
+     }
+     .menuUl li{
+        
+     }
+     .logo{
+         max-width:60% ;
+     }
+     .container{
+         
+     }
+     .imgDiv {
+        flex-basis:50%;
+        max-width: 50%;
+     }
+     .banner{
+    
+         margin: 0;
+         font-size: 2rem;
+         background-image:url(../images/banner.webp);
+    background-size: cover;
+    
+         background-size: cover;
+     }  
+     .anotherFlex{
+         display: block;
+     }
+     #streetsimg, .scoop{
+         padding: 1rem;
+     }
+     .footerMenu ul{
+         justify-content: space-evenly;
+         margin: 0;
+         padding: 0 3rem;
+     }
+     .footerMenu ul{
+         padding: 1.5rem;
+     }
+     .copyright, .unilevrLogo{
+         font-size: 1rem;
+         
+         
+     }
+     .unilevrLogo img{
+         
+         padding-left:3rem 0;
+     }
+ 
+
+   
+}
+
+ 
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+
+}    
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 2560px) {
+    
+    
+    
+}    
