@@ -161,6 +161,9 @@ nav{
     border: 3px solid red;
     
 }
+
+
+
 .footerMenu, .facebook {
     background-color: #fc0400;
 }
@@ -172,14 +175,15 @@ nav{
     padding-top: 2rem;
     padding-bottom: 1.5rem;
     margin-left: 10rem;
-    margin-right: 10rem;
-   
-    
+    margin-right: 10rem;    
 }
 .footerMenu li a{
     color: white;
     text-decoration: none;
     background-color:#fc0400 ;
+}
+.footerMenu li a:hover{
+    border-bottom: 2px solid white;
 }
 
 /* row2---------------------------------------------------- */
