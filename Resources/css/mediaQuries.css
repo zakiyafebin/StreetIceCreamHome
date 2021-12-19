@@ -1,10 +1,17 @@
 @media only screen and (max-width: 374px) and (min-width: 320px)  {
     nav {
-    
+        display: inline-block;
        position: relative;
+    }
+    nav div{
+        /* border: 1px solid green; */
     }
     .menuUl ul{
      display: block;
+
+    }
+    .menuUl li a{
+        padding: 0;
     }
     .logo{
         max-width:60% ;
@@ -46,12 +53,21 @@
 /* SMARTPHONES PORTRAIT */
 @media only screen and (max-width: 424px) and (min-width: 375px)  {
     nav {
-    
-        position: relative;
-     }
-     .menuUl ul{
-      display: block;
-     }
+        display: inline-block;
+       position: relative;
+       
+    }
+    nav div{
+        /* border: 1px solid green; */
+        margin-left: 10px;
+    }
+    .menuUl ul{
+     display: block;
+
+    }
+    .menuUl li a{
+        padding: 0;
+    }
      .logo{
          max-width:60% ;
      }
@@ -92,18 +108,21 @@
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (max-width: 634px) and (min-width: 425px)  {
     nav {
-        display: block;
-        position: relative;
-     }
-/*      
- .menuUl ul{
-    align-items: flex-start;
-    flex: 2;
-    flex-wrap: wrap;
-   list-style: none;
-   padding-top: 2rem;
-   
-} */
+        display: inline-block;
+       position: relative;
+       
+    }
+    nav div{
+        /* border: 1px solid green; */
+        margin-left: 10px;
+    }
+    .menuUl ul{
+     display: block;
+
+    }
+    .menuUl li a{
+        padding: 0;
+    }
 .logo{
          max-width:60% ;
      }
@@ -150,16 +169,21 @@
 /* TABLETS PORTRAIT */
 @media only screen and (max-width: 1023px) and (min-width: 768px)  {
     nav {
-        position: relative;
-        display: inset-block: ;;
+        display: inline-block;
+       position: relative;
        
-     }
-     nav div{
-        border: 3px solid red;
-     }
-     .menuUl li{
-        
-     }
+    }
+    nav div{
+        /* border: 1px solid green; */
+        margin-left: 10px;
+    }
+    .menuUl ul{
+     display: block;
+
+    }
+    .menuUl li a{
+        padding: 0;
+    }
      .logo{
          max-width:60% ;
      }
@@ -208,7 +232,7 @@
 }
 
  
-}
+
 
 
 /* TABLET LANDSCAPE / DESKTOP */
