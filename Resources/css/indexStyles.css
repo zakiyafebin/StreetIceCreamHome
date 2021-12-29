@@ -15,7 +15,7 @@ nav{
     overflow: hidden;
     background-color: white;
     border-bottom: 0.3rem solid red;
-    
+    z-index: 1000;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,6 +23,7 @@ nav{
 }
 
  .menuUl ul{
+     /* flex:2; */
      display: flex;
      flex-wrap: wrap;
     list-style: none;
@@ -158,7 +159,7 @@ nav{
     display: flex;
     
     display: inline-block;
-    border: 3px solid red;
+    background-color :#fc0400 ;
     
 }
 
@@ -192,7 +193,7 @@ nav{
     display: flex;
     padding: 1rem 0;
     justify-content: center; 
-    border: 3px solid red; 
+    /* border: 3px solid red;  */
 }
 
   
@@ -207,7 +208,7 @@ nav{
     /* justify-content: space-between; */
     background-color:#fc0400 ;
     color: white;
-     border: 3px solid red; 
+     /* border: 3px solid red;  */
 }
 .uniCopy{
     display: flex;

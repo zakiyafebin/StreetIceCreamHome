@@ -168,15 +168,15 @@
 
 /* TABLETS PORTRAIT */
 @media only screen and (max-width: 1023px) and (min-width: 768px)  {
-    nav {
+   /* nav {
         display: inline-block;
        position: relative;
        
     }
     nav div{
         /* border: 1px solid green; */
-        margin-left: 10px;
-    }
+       
+
     .menuUl ul{
      display: block;
 
@@ -189,7 +189,7 @@
      }
      .container{
          
-     }
+     }*/
      .imgDiv {
         flex-basis:50%;
         max-width: 50%;
